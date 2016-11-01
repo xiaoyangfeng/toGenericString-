@@ -46,7 +46,7 @@ public class Solution {
 
             ArrayList<String> methodList = new ArrayList<>();
             for(Method method: methods){
-                methodList.add(method.toGenericString());
+                methodList.add(method.getName());
             }
             Collections.sort(methodList);
             for(String name: methodList){
